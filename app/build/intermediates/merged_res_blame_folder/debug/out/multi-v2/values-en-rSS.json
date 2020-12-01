@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSS\\values-en-rSS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\99c6e339f39747c067637f29a6d224b3\\tweet-ui-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d0d540e29f0be6ad7b5a4d4566c37644\\jetified-tweet-ui-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
                     "from": {
                         "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a7cf5904c07da88ab25c6b5662ca195a\\tweet-composer-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a08840cab5b090afa9e486de67c92a06\\twitter-core-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "785",
+                        "endColumns": "75",
+                        "endOffsets": "856"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\28f77ce5b525253a4d6781248f43d07b\\tweet-composer-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -40,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\eea8bbdd154dece29428c87d781f5b37\\twitter-mopub-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\eec0e1e6023c25e1d7caa98658ddf70d\\jetified-twitter-mopub-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -54,23 +71,6 @@
                         "startOffsets": "1092,1745",
                         "endColumns": "81,75",
                         "endOffsets": "1169,1816"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\18144f70457d6bb7f636c2a2c970fcf6\\twitter-core-3.1.1\\res\\values-en-rSS\\values-en-rSS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "75",
-                        "endOffsets": "126"
-                    },
-                    "to": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "785",
-                        "endColumns": "75",
-                        "endOffsets": "856"
                     }
                 }
             ]

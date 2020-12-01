@@ -5,13 +5,14 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -44,6 +45,8 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 import retrofit2.Call;
+
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -180,6 +183,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void handleFacebookAccessToken(AccessToken token) {
+
         Log.d(TAG, "handleFacebookAccessToken:" + token);
 
         AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
@@ -200,10 +204,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             Toast.makeText(getApplicationContext(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-//                            updateUI(null);
                         }
-
-                        // ...
                     }
                 });
     }
@@ -239,7 +240,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUI() {
-
         Intent intent = new Intent(MainActivity.this, fb_activity.class);
         startActivity(intent);
     }
@@ -250,19 +250,4 @@ public class MainActivity extends AppCompatActivity {
         if (mAuth.getCurrentUser() != null)
             updateUI();
     }
-
-//    private void printKeyHash() {
-//        try {
-//            PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_SIGNATURES);
-//            for (Signature signature : info.signatures) {
-//                MessageDigest md = MessageDigest.getInstance("SHA1");
-//                md.update(signature.toByteArray());
-//                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
-//            }
-//        } catch (PackageManager.NameNotFoundException e) {
-//            Log.e("KeyHash:", e.toString());
-//        } catch (NoSuchAlgorithmException e) {
-//            Log.e("KeyHash:", e.toString());
-//        }
-//    }
 }

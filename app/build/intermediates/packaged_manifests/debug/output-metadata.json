@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.aritra.loginappdemo",
+  "applicationId": "com.ID.loginappdemo",
   "variantName": "debug",
   "elements": [
     {

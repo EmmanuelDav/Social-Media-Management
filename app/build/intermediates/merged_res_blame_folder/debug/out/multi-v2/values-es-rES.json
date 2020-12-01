@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\36e4539ddc3500f550fa355a71371679\\facebook-login-5.0.1\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a383a1d25f31796d509bbdee931a2ec8\\jetified-facebook-login-5.0.1\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

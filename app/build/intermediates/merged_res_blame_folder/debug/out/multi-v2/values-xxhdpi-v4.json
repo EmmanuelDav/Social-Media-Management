@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\18144f70457d6bb7f636c2a2c970fcf6\\twitter-core-3.1.1\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a08840cab5b090afa9e486de67c92a06\\twitter-core-3.1.1\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

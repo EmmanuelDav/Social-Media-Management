@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "719744960405",
-    "firebase_url": "https://loginappdemo-3180c.firebaseio.com",
-    "project_id": "loginappdemo-3180c",
-    "storage_bucket": "loginappdemo-3180c.appspot.com"
+    "project_number": "601908262666",
+    "firebase_url": "https://friendlychat-60a95.firebaseio.com",
+    "project_id": "friendlychat-60a95",
+    "storage_bucket": "friendlychat-60a95.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:719744960405:android:f4c20bbb19c770c0",
+        "mobilesdk_app_id": "1:601908262666:android:e79ec29a2d1208fce5acf3",
         "android_client_info": {
-          "package_name": "com.aritra.loginappdemo"
+          "package_name": "com.ID.loginappdemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "719744960405-e9qvmg08ndq5vmfheo9ivuffejpeuuj9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.aritra.loginappdemo",
-            "certificate_hash": "02b46d9ed06074906c9a16f377450fa112a1c7e4"
-          }
-        },
-        {
-          "client_id": "719744960405-4g95vhot23fhnmtghhgqcrmic41rdar4.apps.googleusercontent.com",
+          "client_id": "601908262666-hbbftmuibhadljatvspa34a3mnvjn18l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAMlNof5R6lQkOOwgoiDM-h64-4eWmyLwg"
+          "current_key": "AIzaSyAcvXsA0KlIPhnnHk9mCRkjuktucuC6l08"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "719744960405-4g95vhot23fhnmtghhgqcrmic41rdar4.apps.googleusercontent.com",
+              "client_id": "601908262666-hbbftmuibhadljatvspa34a3mnvjn18l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
