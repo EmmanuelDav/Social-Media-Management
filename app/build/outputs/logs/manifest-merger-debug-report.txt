@@ -199,7 +199,7 @@ MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\cac
 	android:allowBackup
 		ADDED from C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:14:9-65
 activity#com.ID.loginappdemo.SplashScreen
 ADDED from C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name

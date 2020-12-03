@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tw__composer_white">
@@ -27,8 +28,8 @@
             android:gravity="center_horizontal"
             android:singleLine="true"
             android:text="Manage All Your Social media"
-            android:textAllCaps="true"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAllCaps="false"
+            android:textAppearance="?textAppearanceHeadline5" />
 
         <TextView
 
@@ -37,8 +38,8 @@
             android:layout_below="@+id/spalsh_icon"
             android:gravity="center_horizontal"
             android:text="Post in a single click"
-            android:textAllCaps="true"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAllCaps="false"
+            android:textAppearance="?textAppearanceHeadline5" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -50,7 +51,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:text="Manage me also helps you reply \n like and comment, from all your post on \n all your social meida"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="?textAppearanceBody2" />
 
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -61,13 +62,14 @@
         android:layout_marginBottom="60dp"
         android:src="@drawable/view2" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
         android:layout_height="wrap_content"
-        android:text="Skip"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:text="Skip"
+        app:cornerRadius="8dp" />
 
 </RelativeLayout>

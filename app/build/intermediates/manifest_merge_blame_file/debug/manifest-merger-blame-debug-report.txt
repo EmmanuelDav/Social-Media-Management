@@ -34,8 +34,8 @@
 22        android:supportsRtl="true"
 22-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:13:9-35
 23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:14:9-40
+24        android:theme="@style/Theme.FirebaseSocialAuth.DayNight" >
+24-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:14:9-65
 25        <activity android:name="com.ID.loginappdemo.SplashScreen" >
 25-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:15:9-21:20
 25-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:15:19-47
