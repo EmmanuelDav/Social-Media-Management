@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.twitter.sdk.android:twitter-mopub:3.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eec0e1e6023c25e1d7caa98658ddf70d/jetified-twitter-mopub-3.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eec0e1e6023c25e1d7caa98658ddf70d/jetified-twitter-mopub-3.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eec0e1e6023c25e1d7caa98658ddf70d/jetified-twitter-mopub-3.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc3417aab25fb14def33b57e0d1e1c06/jetified-twitter-mopub-3.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc3417aab25fb14def33b57e0d1e1c06/jetified-twitter-mopub-3.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc3417aab25fb14def33b57e0d1e1c06/jetified-twitter-mopub-3.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter.sdk.android/twitter-mopub/3.1.1/dbc565f016b65ba60334f6147a579ee7a04cd572/twitter-mopub-3.1.1-javadoc.jar!/" />

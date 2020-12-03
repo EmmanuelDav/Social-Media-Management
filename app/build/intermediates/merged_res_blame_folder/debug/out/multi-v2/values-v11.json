@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\28f77ce5b525253a4d6781248f43d07b\\tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\fd7722dbfe58bf7fef372c0e453cdc53\\jetified-tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,10",
                         "startColumns": "4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d0d540e29f0be6ad7b5a4d4566c37644\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\ad61ac503caad2b1113187ae9b411daa\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

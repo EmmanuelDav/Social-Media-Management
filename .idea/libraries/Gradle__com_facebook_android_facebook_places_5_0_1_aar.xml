@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.android:facebook-places:5.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0c29e30a41470365dfb27b2154b8983/facebook-places-5.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0c29e30a41470365dfb27b2154b8983/facebook-places-5.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0c29e30a41470365dfb27b2154b8983/facebook-places-5.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da1bd4664b4b3aed548830649f761736/jetified-facebook-places-5.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da1bd4664b4b3aed548830649f761736/jetified-facebook-places-5.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da1bd4664b4b3aed548830649f761736/jetified-facebook-places-5.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-places/5.0.1/befc573e3ab80de35d3414cb3c1ac0cbf58bd28c/facebook-places-5.0.1-javadoc.jar!/" />

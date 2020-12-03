@@ -11,6 +11,8 @@ com/ID/loginappdemo/BuildConfig.java
 com/ID/loginappdemo/fb_activity.java
  com.ID.loginappdemo.fb_activity
  com.ID.loginappdemo.fb_activity$1
+com/ID/loginappdemo/SplashFragment/Splash2.java
+ com.ID.loginappdemo.SplashFragment.Splash2
 com/ID/loginappdemo/TwitterActivity.java
  com.ID.loginappdemo.TwitterActivity
  com.ID.loginappdemo.TwitterActivity$1
