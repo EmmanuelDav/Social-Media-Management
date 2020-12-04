@@ -26,8 +26,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:singleLine="true"
             android:text="Manage All Your Social media"
+            android:textSize="22sp"
             android:textAllCaps="false"
             android:textAppearance="?textAppearanceHeadline5" />
 
@@ -54,22 +54,5 @@
         android:textAppearance="?textAppearanceBody2" />
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:src="@drawable/view2" />
-
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:padding="3dp"
-        android:text="Skip"
-        app:cornerRadius="8dp" />
 
 </RelativeLayout>

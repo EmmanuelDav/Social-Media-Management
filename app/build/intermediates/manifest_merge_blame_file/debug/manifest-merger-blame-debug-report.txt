@@ -18,7 +18,7 @@
 12-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:8:5-52:19
+14-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:8:5-44:19
 15        android:allowBackup="true"
 15-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -56,308 +56,297 @@
 33        <activity android:name="com.ID.loginappdemo.fb_activity" />
 33-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:23:9-49
 33-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:23:19-46
-34        <activity android:name="com.ID.loginappdemo.MainActivity" >
-34-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:24:9-30:20
+34        <activity android:name="com.ID.loginappdemo.MainActivity" />
+34-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:24:9-49
 34-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:24:19-47
-35            <intent-filter>
-35-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:16:13-20:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:17:17-69
-36-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:17:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:19:17-77
-38-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:19:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <meta-data
-42-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:32:9-34:55
-43            android:name="com.facebook.sdk.ApplicationId"
-43-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:33:13-58
-44            android:value="@string/facebook_app_id" />
-44-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:34:13-52
-45
-46        <activity
-46-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:36:9-39:48
-47            android:name="com.facebook.FacebookActivity"
-47-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:37:13-57
-48            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-48-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:13-96
-49            android:label="@string/app_name"
-49-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:13-45
-50            android:theme="@style/com_facebook_activity_theme" />
-50-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:32:13-63
-51        <activity
-51-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:9-51:20
-52            android:name="com.facebook.CustomTabActivity"
-52-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:13-58
-53            android:exported="true" >
-53-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:42:13-36
-54            <intent-filter>
-54-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:43:13-50:29
-55                <action android:name="android.intent.action.VIEW" />
-55-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:17-69
-55-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:25-66
-56
-57                <category android:name="android.intent.category.DEFAULT" />
-57-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:17-76
-57-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:27-73
-58                <category android:name="android.intent.category.BROWSABLE" />
-58-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:17-78
-58-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:27-75
-59
-60                <data android:scheme="@string/fb_login_protocol_scheme" />
-60-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:17-75
-60-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:23-72
-61            </intent-filter>
-62        </activity>
-63        <activity android:name="com.facebook.CustomTabMainActivity" />
-63-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:33:9-71
-63-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:33:19-68
-64        <activity
-64-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
-65            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-65-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
-66            android:excludeFromRecents="true"
-66-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
-67            android:exported="true"
-67-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
-68            android:launchMode="singleTask"
-68-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
-69            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-69-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
-70            <intent-filter>
-70-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
-71                <action android:name="android.intent.action.VIEW" />
-71-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:17-69
-71-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:25-66
-72
-73                <category android:name="android.intent.category.DEFAULT" />
-73-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:17-76
-73-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:27-73
-74                <category android:name="android.intent.category.BROWSABLE" />
-74-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:17-78
-74-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:27-75
-75
-76                <data
-76-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:17-75
-77                    android:host="firebase.auth"
-78                    android:path="/"
-79                    android:scheme="genericidp" />
-79-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:23-72
-80            </intent-filter>
-81        </activity>
-82        <activity
-82-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
-83            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-83-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
-84            android:excludeFromRecents="true"
-84-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
-85            android:exported="true"
-85-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
-86            android:launchMode="singleTask"
-86-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-87-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
-88            <intent-filter>
-88-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
-89                <action android:name="android.intent.action.VIEW" />
-89-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:17-69
-89-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:44:25-66
-90
-91                <category android:name="android.intent.category.DEFAULT" />
-91-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:17-76
-91-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:27-73
-92                <category android:name="android.intent.category.BROWSABLE" />
-92-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:17-78
-92-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:47:27-75
-93
-94                <data
-94-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:17-75
-95                    android:host="firebase.auth"
-96                    android:path="/"
-97                    android:scheme="recaptcha" />
-97-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:49:23-72
-98            </intent-filter>
-99        </activity>
-100
-101        <service
-101-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
-102            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-102-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
-103            android:enabled="true"
-103-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
-104            android:exported="false" >
-104-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
-105            <intent-filter>
-105-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
-106                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-106-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
-106-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
-107
-108                <category android:name="android.intent.category.DEFAULT" />
-108-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:17-76
-108-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:46:27-73
-109            </intent-filter>
-110        </service>
-111        <service
-111-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:74:9-80:19
-112            android:name="com.google.firebase.components.ComponentDiscoveryService"
-112-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:75:13-84
-113            android:directBootAware="true"
-113-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
-114            android:exported="false" >
-114-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:76:13-37
-115            <meta-data
-115-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
-116                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-116-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
-117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
-118        </service>
-119
-120        <activity
-120-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
-121            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
-121-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
-122            android:configChanges="keyboardHidden|orientation|screenSize"
-122-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
-123            android:theme="@style/MediaTheme" />
-123-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
+35
+36        <meta-data
+36-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:26:9-28:55
+37            android:name="com.facebook.sdk.ApplicationId"
+37-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:27:13-58
+38            android:value="@string/facebook_app_id" />
+38-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:28:13-52
+39
+40        <activity
+40-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:30:9-33:48
+41            android:name="com.facebook.FacebookActivity"
+41-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:31:13-57
+42            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+42-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:32:13-96
+43            android:label="@string/app_name"
+43-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:33:13-45
+44            android:theme="@style/com_facebook_activity_theme" />
+44-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:32:13-63
+45        <activity
+45-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:34:9-43:20
+46            android:name="com.facebook.CustomTabActivity"
+46-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:35:13-58
+47            android:exported="true" >
+47-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:36:13-36
+48            <intent-filter>
+48-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:37:13-42:29
+49                <action android:name="android.intent.action.VIEW" />
+49-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:17-69
+49-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:17-76
+51-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:27-73
+52                <category android:name="android.intent.category.BROWSABLE" />
+52-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:17-78
+52-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:27-75
+53
+54                <data android:scheme="@string/fb_login_protocol_scheme" />
+54-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:17-75
+54-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:23-72
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.facebook.CustomTabMainActivity" />
+57-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:33:9-71
+57-->[com.facebook.android:facebook-common:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ef686e860bac042655213d13dde39494\jetified-facebook-common-5.0.1\AndroidManifest.xml:33:19-68
+58        <activity
+58-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+59            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+59-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+63-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+64            <intent-filter>
+64-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:17-69
+65-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:17-76
+67-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:17-78
+68-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:27-75
+69
+70                <data
+70-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:17-75
+71                    android:host="firebase.auth"
+72                    android:path="/"
+73                    android:scheme="genericidp" />
+73-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:23-72
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+77            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+77-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:17-69
+83-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:38:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:17-76
+85-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:17-78
+86-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:40:27-75
+87
+88                <data
+88-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:17-75
+89                    android:host="firebase.auth"
+90                    android:path="/"
+91                    android:scheme="recaptcha" />
+91-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:41:23-72
+92            </intent-filter>
+93        </activity>
+94
+95        <service
+95-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+96            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+96-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+97            android:enabled="true"
+97-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+100                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+100-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
+100-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:17-76
+102-->C:\Users\HP\AndroidStudioProjects\social-media-integration\app\src\main\AndroidManifest.xml:39:27-73
+103            </intent-filter>
+104        </service>
+105        <service
+105-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:74:9-80:19
+106            android:name="com.google.firebase.components.ComponentDiscoveryService"
+106-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:75:13-84
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:76:13-37
+109            <meta-data
+109-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+110-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\73156732b7ba7dc45bded06b7939769d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+112        </service>
+113
+114        <activity
+114-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
+115            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+115-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
+116            android:configChanges="keyboardHidden|orientation|screenSize"
+116-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
+117            android:theme="@style/MediaTheme" />
+117-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
+118        <activity
+118-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
+119            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+119-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
+120            android:theme="@style/MediaTheme" />
+120-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
+121        <activity
+121-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:28:9-30:77
+122            android:name="com.mopub.mobileads.MoPubActivity"
+122-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:29:13-61
+123            android:configChanges="keyboardHidden|orientation|screenSize" />
+123-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:30:13-74
 124        <activity
-124-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
-125            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
-125-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
-126            android:theme="@style/MediaTheme" />
-126-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad61ac503caad2b1113187ae9b411daa\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
+124-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:31:9-33:77
+125            android:name="com.mopub.mobileads.MraidActivity"
+125-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:32:13-61
+126            android:configChanges="keyboardHidden|orientation|screenSize" />
+126-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:33:13-74
 127        <activity
-127-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:28:9-30:77
-128            android:name="com.mopub.mobileads.MoPubActivity"
-128-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:29:13-61
+127-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:34:9-36:77
+128            android:name="com.mopub.common.MoPubBrowser"
+128-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:35:13-57
 129            android:configChanges="keyboardHidden|orientation|screenSize" />
-129-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:30:13-74
+129-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:36:13-74
 130        <activity
-130-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:31:9-33:77
-131            android:name="com.mopub.mobileads.MraidActivity"
-131-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:32:13-61
+130-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:37:9-39:77
+131            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+131-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:38:13-72
 132            android:configChanges="keyboardHidden|orientation|screenSize" />
-132-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:33:13-74
+132-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:39:13-74
 133        <activity
-133-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:34:9-36:77
-134            android:name="com.mopub.common.MoPubBrowser"
-134-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:35:13-57
-135            android:configChanges="keyboardHidden|orientation|screenSize" />
-135-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:36:13-74
-136        <activity
-136-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:37:9-39:77
-137            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
-137-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:38:13-72
-138            android:configChanges="keyboardHidden|orientation|screenSize" />
-138-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dc3417aab25fb14def33b57e0d1e1c06\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:39:13-74
-139        <activity
-139-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-140-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-141            android:exported="false"
-141-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-143
-144        <provider
-144-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
-145            android:name="com.google.firebase.provider.FirebaseInitProvider"
-145-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
-146            android:authorities="com.ID.loginappdemo.firebaseinitprovider"
-146-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
-147            android:directBootAware="true"
-147-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
-148            android:exported="false"
-148-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
-149            android:initOrder="100" />
-149-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
-150
-151        <meta-data
-151-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-152            android:name="com.google.android.gms.version"
-152-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-153            android:value="@integer/google_play_services_version" />
-153-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-154        <!--
-155         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-156         with the application context. This config is merged in with the host app's manifest,
-157         but there can only be one provider with the same authority activated at any given
-158         point; so if the end user has two or more different apps that use Facebook SDK, only the
-159         first one will be able to use the provider. To work around this problem, we use the
-160         following placeholder in the authority to identify each host application as if it was
-161         a completely different provider.
-162        -->
-163        <provider
-163-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:39:9-42:40
-164            android:name="com.facebook.internal.FacebookInitProvider"
-164-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:40:13-70
-165            android:authorities="com.ID.loginappdemo.FacebookInitProvider"
-165-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:41:13-72
-166            android:exported="false" />
-166-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:42:13-37
-167
-168        <receiver
-168-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:44:9-50:20
-169            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-169-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:45:13-86
-170            android:exported="false" >
-170-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:46:13-37
-171            <intent-filter>
-171-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:47:13-49:29
-172                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-172-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:48:17-95
-172-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:48:25-92
-173            </intent-filter>
-174        </receiver>
-175        <receiver
-175-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:51:9-58:20
-176            android:name="com.facebook.CampaignTrackingReceiver"
-176-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:52:13-65
-177            android:exported="true"
-177-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:53:13-36
-178            android:permission="android.permission.INSTALL_PACKAGES" >
-178-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:54:13-69
-179            <intent-filter>
-179-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:55:13-57:29
-180                <action android:name="com.android.vending.INSTALL_REFERRER" />
-180-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:56:17-79
-180-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:56:25-76
-181            </intent-filter>
-182        </receiver>
-183
-184        <activity
-184-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
-185            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
-185-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
-186            android:exported="false"
-186-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
-187            android:windowSoftInputMode="adjustResize|stateVisible" />
-187-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
-188
-189        <service
-189-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
-190            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
-190-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
-191            android:enabled="true"
-191-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
+133-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+140            android:authorities="com.ID.loginappdemo.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\938bfa6ef5514cb2edd2144bd599b3fe\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+148        <!--
+149         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+150         with the application context. This config is merged in with the host app's manifest,
+151         but there can only be one provider with the same authority activated at any given
+152         point; so if the end user has two or more different apps that use Facebook SDK, only the
+153         first one will be able to use the provider. To work around this problem, we use the
+154         following placeholder in the authority to identify each host application as if it was
+155         a completely different provider.
+156        -->
+157        <provider
+157-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:39:9-42:40
+158            android:name="com.facebook.internal.FacebookInitProvider"
+158-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:40:13-70
+159            android:authorities="com.ID.loginappdemo.FacebookInitProvider"
+159-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:41:13-72
+160            android:exported="false" />
+160-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:42:13-37
+161
+162        <receiver
+162-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:44:9-50:20
+163            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+163-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:45:13-86
+164            android:exported="false" >
+164-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:46:13-37
+165            <intent-filter>
+165-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:47:13-49:29
+166                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+166-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:48:17-95
+166-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:48:25-92
+167            </intent-filter>
+168        </receiver>
+169        <receiver
+169-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:51:9-58:20
+170            android:name="com.facebook.CampaignTrackingReceiver"
+170-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:52:13-65
+171            android:exported="true"
+171-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:53:13-36
+172            android:permission="android.permission.INSTALL_PACKAGES" >
+172-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:54:13-69
+173            <intent-filter>
+173-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:55:13-57:29
+174                <action android:name="com.android.vending.INSTALL_REFERRER" />
+174-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:56:17-79
+174-->[com.facebook.android:facebook-core:5.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e770df7f10f2bfec1df6faa76c8f5470\jetified-facebook-core-5.0.1\AndroidManifest.xml:56:25-76
+175            </intent-filter>
+176        </receiver>
+177
+178        <activity
+178-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
+179            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+179-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
+180            android:exported="false"
+180-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
+181            android:windowSoftInputMode="adjustResize|stateVisible" />
+181-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
+182
+183        <service
+183-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
+184            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+184-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
+185            android:enabled="true"
+185-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
+186            android:exported="false" />
+186-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
+187
+188        <activity
+188-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
+189            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+189-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:29:13-79
+190            android:configChanges="orientation|screenSize"
+190-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:30:13-59
+191            android:excludeFromRecents="true"
+191-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:31:13-46
 192            android:exported="false" />
-192-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fd7722dbfe58bf7fef372c0e453cdc53\jetified-tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
-193
-194        <activity
-194-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
-195            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
-195-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:29:13-79
-196            android:configChanges="orientation|screenSize"
-196-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:30:13-59
-197            android:excludeFromRecents="true"
-197-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:31:13-46
-198            android:exported="false" />
-198-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:32:13-37
-199    </application>
-200
-201</manifest>
+192-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ec4295f31d2077c09c8f13800c97bbfc\jetified-twitter-core-3.1.1\AndroidManifest.xml:32:13-37
+193    </application>
+194
+195</manifest>

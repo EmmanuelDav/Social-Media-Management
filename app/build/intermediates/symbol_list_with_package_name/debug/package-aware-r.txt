@@ -2020,6 +2020,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable facebook
+drawable facebook_logo_icon
+drawable github_logo_icon
+drawable google_logo_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
@@ -2035,6 +2038,9 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable instagram
 drawable leaf
+drawable login1
+drawable login_screen_background
+drawable login_top_background
 drawable logo
 drawable logo_skype
 drawable logo_small
@@ -2094,6 +2100,9 @@ drawable notify_panel_notification_icon_bg
 drawable spalsh2
 drawable spash3
 drawable spashi
+drawable tabdefault
+drawable tabselected
+drawable tabselector
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2203,6 +2212,7 @@ drawable tw__video_replay_btn
 drawable tw__video_seekbar
 drawable tw__vine_badge
 drawable twitter
+drawable twitter_logo_icon
 drawable view1
 drawable view2
 drawable view3
@@ -2349,6 +2359,7 @@ id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id confirm_button
 id confirmation_code
+id cont
 id container
 id content
 id contentPanel
@@ -2435,7 +2446,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imgCompanyLogo
 id info
 id inline
 id invisible
@@ -2458,6 +2468,7 @@ id linear
 id listMode
 id list_item
 id literal
+id loginToContinue
 id masked
 id material_clock_display
 id material_clock_face
@@ -2645,6 +2656,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id tabDots
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2728,10 +2740,7 @@ id tw__video_duration
 id tw__view_pager
 id tw__web_view
 id tweet_media_view
-id txtCompanyName
 id txtCopyright
-id txtTermsAndConditions
-id txtWelcome
 id unchecked
 id uniform
 id unknown
@@ -2745,6 +2754,7 @@ id video_view
 id view_offset_helper
 id view_pager
 id visible
+id welcomeText
 id wide
 id width
 id withText

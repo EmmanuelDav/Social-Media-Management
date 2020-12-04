@@ -53,23 +53,5 @@
         android:text="This app can also help you view \n Post from all Your social Media \n Handles at the same time"
         android:textAppearance="?textAppearanceBody2" />
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:src="@drawable/view3" />
-
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:padding="3dp"
-        android:text="Continue"
-        app:cornerRadius="8dp" />
-
 
 </RelativeLayout>
