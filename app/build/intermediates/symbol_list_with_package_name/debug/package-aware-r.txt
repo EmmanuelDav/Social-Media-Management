@@ -3140,6 +3140,7 @@ string tw__share_tweet
 string tw__sponsored
 string tw__tweet_content_description
 string tw__tweet_media
+string twitter_token
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

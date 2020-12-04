@@ -3139,6 +3139,7 @@ int string tw__share_tweet 0x7f1000b0
 int string tw__sponsored 0x7f1000b1
 int string tw__tweet_content_description 0x7f1000b2
 int string tw__tweet_media 0x7f1000b3
+int string twitter_token 0x7f1000b4
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style AndroidThemeColorAccentYellow 0x7f110002

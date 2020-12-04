@@ -1,14 +1,9 @@
 package com.ID.loginappdemo;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.os.Bundle;
-import android.util.Base64;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -41,17 +36,12 @@ import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.identity.TwitterLoginButton;
 import com.twitter.sdk.android.core.models.User;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 import retrofit2.Call;
 
-import static com.facebook.FacebookSdk.getApplicationContext;
-
 
 public class MainActivity extends AppCompatActivity {
-
     private CallbackManager mCallbackManager;
     private static final String EMAIL = "email";
     private static final String TAG = "FBLog";
@@ -62,18 +52,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TwitterAuthConfig authConfig = new TwitterAuthConfig("PUBLIC_KEY ",
-                "SECRET_KEY");
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(getResources().getString(R.string.com_twitter_sdk_android_CONSUMER_KEY),
+                getResources().getString(R.string.com_twitter_sdk_android_CONSUMER_SECRET));
         TwitterConfig twitterConfig = new TwitterConfig.Builder(this)
                 .twitterAuthConfig(authConfig)
                 .build();
         Twitter.initialize(twitterConfig);
         setContentView(R.layout.activity_main);
-
         fb_button = findViewById(R.id.btnFacebook);
         twitter_button = findViewById(R.id.btn_twitter);
         mCallbackManager = CallbackManager.Factory.create();
-
         fb_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -90,14 +78,12 @@ public class MainActivity extends AppCompatActivity {
                     public void onCancel() {
                         Log.d(TAG, "facebook:onCancel");
                         Toast.makeText(MainActivity.this, "Facebook:Cancel", Toast.LENGTH_SHORT).show();
-                        // ...
                     }
 
                     @Override
                     public void onError(FacebookException error) {
                         Log.d(TAG, "facebook:onError", error);
                         Toast.makeText(MainActivity.this, "ERROR", Toast.LENGTH_SHORT).show();
-                        // ...
                     }
                 });
             }
@@ -109,26 +95,20 @@ public class MainActivity extends AppCompatActivity {
             public void success(Result<TwitterSession> result) {
                 Log.d(TAG, "twitterLogin:success" + result);
                 Toast.makeText(getApplicationContext(), "Twitter:Success", Toast.LENGTH_SHORT).show();
-//                handleTwitterSession(result.data);
                 TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
                 TwitterAuthToken authToken = session.getAuthToken();
                 String token = authToken.token;
                 String secret = authToken.secret;
-
-
                 Call<User> user = TwitterCore.getInstance().getApiClient().getAccountService().verifyCredentials(true, true, true);
                 user.enqueue(new Callback<User>() {
                     @Override
                     public void success(Result<User> userResult) {
                         String name = userResult.data.name;
                         String email = userResult.data.email;
-
-                        // _normal (48x48px) | _bigger (73x73px) | _mini (24x24px)
                         String photoUrlNormalSize = userResult.data.profileImageUrl;
                         String photoUrlBiggerSize = userResult.data.profileImageUrl.replace("_normal", "_bigger");
                         String photoUrlMiniSize = userResult.data.profileImageUrl.replace("_normal", "_mini");
                         String photoUrlOriginalSize = userResult.data.profileImageUrl.replace("_normal", "");
-
                         Intent intent = new Intent(MainActivity.this, TwitterActivity.class);
                         intent.putExtra("username", name);
                         intent.putExtra("email", email);
@@ -142,22 +122,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-
-                //Calling login method and passing twitter session
-//                TwitterAuthClient authClient = new TwitterAuthClient();
-//                authClient.requestEmail(session, new Callback<String>() {
-//                    @Override
-//                    public void success(Result<String> result) {
-//                        // Do something with the result, which provides the email address
-//                        Toast.makeText(getApplicationContext(),result.data, Toast.LENGTH_SHORT).show();
-//                    }
-//
-//                    @Override
-//                    public void failure(TwitterException exception) {
-//                        // Do something on failure
-//                    }
-//                });
-
             }
 
             @Override
@@ -167,11 +131,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
-// Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-      //  printKeyHash();
     }
 
     @Override
@@ -179,7 +139,6 @@ public class MainActivity extends AppCompatActivity {
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
         twitter_button.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
-//        twitterLoginButton.onActivityResult(requestCode, resultCode, data);
     }
 
     private void handleFacebookAccessToken(AccessToken token) {
@@ -190,15 +149,12 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast toast = Toast.makeText(MainActivity.this, "USER: " + user.getDisplayName(), Toast.LENGTH_LONG);
                             toast.show();
-//                            finish();
                             updateUI();
                         } else {
-                            // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             Toast.makeText(getApplicationContext(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
@@ -209,7 +165,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void handleTwitterSession(final TwitterSession session) {
         Log.d(TAG, "handleTwitterSession:" + session);
-
         AuthCredential credential = TwitterAuthProvider.getCredential(
                 session.getAuthToken().token,
                 session.getAuthToken().secret);
@@ -218,21 +173,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(MainActivity.this, "USER: " + user.getDisplayName(), Toast.LENGTH_LONG).show();
-
-//                            updateUI();
                         } else {
-                            // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             Toast.makeText(getApplicationContext(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-                            //updateUI();
                         }
-
-                        // ...
                     }
                 });
     }
