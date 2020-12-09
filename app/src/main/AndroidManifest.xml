@@ -12,6 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseSocialAuth.DayNight">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirebaseSocialAuth.DayNight.NoActionBar"/>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,11 +25,14 @@
         </activity>
         <activity android:name=".TwitterActivity" />
         <activity android:name=".fb_activity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".Authentication" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -42,4 +49,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

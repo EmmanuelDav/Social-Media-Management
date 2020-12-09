@@ -43,7 +43,7 @@ class SplashScreen : AppCompatActivity() {
         })
         continueButton = findViewById<MaterialButton>(R.id.cont)
         continueButton!!.setOnClickListener{
-            startActivity(Intent(this@SplashScreen,MainActivity::class.java))
+            startActivity(Intent(this@SplashScreen, Authentication::class.java))
         }
     }
 }

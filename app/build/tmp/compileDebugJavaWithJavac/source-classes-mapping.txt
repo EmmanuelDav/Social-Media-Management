@@ -1,16 +1,16 @@
 com/ID/loginappdemo/BuildConfig.java
  com.ID.loginappdemo.BuildConfig
-com/ID/loginappdemo/MainActivity.java
- com.ID.loginappdemo.MainActivity
- com.ID.loginappdemo.MainActivity$1
- com.ID.loginappdemo.MainActivity$1$1
- com.ID.loginappdemo.MainActivity$2
- com.ID.loginappdemo.MainActivity$2$1
- com.ID.loginappdemo.MainActivity$3
- com.ID.loginappdemo.MainActivity$4
 com/ID/loginappdemo/fb_activity.java
  com.ID.loginappdemo.fb_activity
  com.ID.loginappdemo.fb_activity$1
+com/ID/loginappdemo/Authentication.java
+ com.ID.loginappdemo.Authentication
+ com.ID.loginappdemo.Authentication$1
+ com.ID.loginappdemo.Authentication$1$1
+ com.ID.loginappdemo.Authentication$2
+ com.ID.loginappdemo.Authentication$2$1
+ com.ID.loginappdemo.Authentication$3
+ com.ID.loginappdemo.Authentication$4
 com/ID/loginappdemo/SplashFragment/Splash2.java
  com.ID.loginappdemo.SplashFragment.Splash2
 com/ID/loginappdemo/TwitterActivity.java

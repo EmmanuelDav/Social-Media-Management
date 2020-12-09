@@ -63,7 +63,7 @@ public class fb_activity extends AppCompatActivity {
     private void logout() {
         FirebaseAuth.getInstance().signOut();
         LoginManager.getInstance().logOut();
-        startActivity(new Intent(fb_activity.this,MainActivity.class));
+        startActivity(new Intent(fb_activity.this, Authentication.class));
         finish();
 
     }

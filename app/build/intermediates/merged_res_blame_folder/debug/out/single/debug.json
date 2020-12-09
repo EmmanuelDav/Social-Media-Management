@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_splash2.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\fragment_splash2.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fb_activity.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\activity_fb_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_splash2.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\fragment_splash2.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook_logo_icon.png.flat",
@@ -36,6 +36,14 @@
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_user.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\drawable-anydpi\\ic_action_user.xml"
     },
@@ -50,6 +58,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
@@ -112,6 +124,10 @@
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\color\\color_on_surface_emphasis_high.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_screen_background.jpg.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\drawable\\login_screen_background.jpg"
     },
@@ -132,16 +148,16 @@
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\drawable\\background_signup.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\font_work_sans_bold.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\font\\work_sans_bold.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_spashi.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\drawable-hdpi\\spashi.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
@@ -262,6 +278,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_google_logo_icon.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\drawable\\google_logo_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\social-media-integration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login1.png.flat",

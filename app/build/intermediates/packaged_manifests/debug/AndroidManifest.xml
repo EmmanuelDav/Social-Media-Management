@@ -22,6 +22,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FirebaseSocialAuth.DayNight" >
+        <activity
+            android:name="com.ID.loginappdemo.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirebaseSocialAuth.DayNight.NoActionBar" />
         <activity android:name="com.ID.loginappdemo.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +35,7 @@
         </activity>
         <activity android:name="com.ID.loginappdemo.TwitterActivity" />
         <activity android:name="com.ID.loginappdemo.fb_activity" />
-        <activity android:name="com.ID.loginappdemo.MainActivity" />
+        <activity android:name="com.ID.loginappdemo.Authentication" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -130,21 +134,6 @@
         <activity
             android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.ID.loginappdemo.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
         <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,
@@ -174,6 +163,22 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.ID.loginappdemo.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"

@@ -51,7 +51,7 @@ public class TwitterActivity extends AppCompatActivity {
     private void logout() {
         FirebaseAuth.getInstance().signOut();
         LoginManager.getInstance().logOut();
-        startActivity(new Intent(TwitterActivity.this,MainActivity.class));
+        startActivity(new Intent(TwitterActivity.this, Authentication.class));
         finish();
 
     }
