@@ -13,17 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseSocialAuth.DayNight">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.FirebaseSocialAuth.DayNight.NoActionBar"/>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TwitterActivity" />
+        <activity android:name=".PostToAllSocialMedia" />
         <activity android:name=".fb_activity" />
         <activity android:name=".Authentication" />
 

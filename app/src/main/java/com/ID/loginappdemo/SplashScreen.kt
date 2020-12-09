@@ -6,6 +6,7 @@ import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.ID.loginappdemo.Models.PagerAdapter
 import com.ID.loginappdemo.SplashFragment.Splash1
 import com.ID.loginappdemo.SplashFragment.Splash2
 import com.ID.loginappdemo.SplashFragment.Splash3

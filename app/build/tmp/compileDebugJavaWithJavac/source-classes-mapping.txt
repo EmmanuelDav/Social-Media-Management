@@ -11,8 +11,7 @@ com/ID/loginappdemo/Authentication.java
  com.ID.loginappdemo.Authentication$2$1
  com.ID.loginappdemo.Authentication$3
  com.ID.loginappdemo.Authentication$4
+com/ID/loginappdemo/PostToAllSocialMedia.java
+ com.ID.loginappdemo.PostToAllSocialMedia
 com/ID/loginappdemo/SplashFragment/Splash2.java
  com.ID.loginappdemo.SplashFragment.Splash2
-com/ID/loginappdemo/TwitterActivity.java
- com.ID.loginappdemo.TwitterActivity
- com.ID.loginappdemo.TwitterActivity$1

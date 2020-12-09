@@ -1343,6 +1343,7 @@ color tw__tweet_dark_container_bg_color
 color tw__tweet_dark_primary_text_color
 color tw__tweet_light_container_bg_color
 color tw__tweet_light_primary_text_color
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2050,6 +2051,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edittextbackground
 drawable facebook
 drawable facebook_logo_icon
 drawable github_logo_icon
@@ -2057,8 +2059,10 @@ drawable google_logo_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
+drawable homeicon
 drawable ic_action_pass
 drawable ic_action_user
+drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2106,6 +2110,7 @@ drawable messenger_button_blue_bg_selector
 drawable messenger_button_send_round_shadow
 drawable messenger_button_white_bg_round
 drawable messenger_button_white_bg_selector
+drawable more
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2128,6 +2133,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable people
+drawable posts
+drawable profile
+drawable searchicon
 drawable spalsh2
 drawable spash3
 drawable spashi
@@ -2247,6 +2256,7 @@ drawable twitter_logo_icon
 drawable view1
 drawable view2
 drawable view3
+font actor
 font work_sans
 font work_sans_bold
 font work_sans_extrabold
@@ -2257,15 +2267,14 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id NO_DEBUG
+id Pager
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -2303,8 +2312,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2330,6 +2337,7 @@ id adjust_width
 id alertTitle
 id aligned
 id all
+id allPost
 id always
 id animateToEnd
 id animateToStart
@@ -2346,6 +2354,7 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottomNavigation
 id bottom_separator
 id bounce
 id box_count
@@ -2359,8 +2368,6 @@ id btnLogout
 id btn_twitter
 id button
 id buttonPanel
-id button_first
-id button_second
 id cache_measures
 id call_to_action_view
 id cancel_action
@@ -2447,7 +2454,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id explain_header1
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -2459,6 +2465,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameLayout
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -2498,6 +2505,7 @@ id labeled
 id large
 id largeLabel
 id layout
+id leadingBoard
 id left
 id leftToRight
 id light
@@ -2508,6 +2516,8 @@ id listMode
 id list_item
 id literal
 id loginToContinue
+id m_profilePic
+id m_username
 id masked
 id material_clock_display
 id material_clock_face
@@ -2555,6 +2565,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id more
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2590,7 +2601,6 @@ id native_ad_privacy_text
 id native_ad_text
 id native_ad_title
 id nav_controller_view_tag
-id nav_graph
 id nav_host_fragment_container
 id navigation_header_container
 id never
@@ -2649,6 +2659,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollable
 id seamless
+id search
 id search_badge
 id search_bar
 id search_button
@@ -2662,6 +2673,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_to_post_activity
 id shortcut
 id showCustom
 id showHome
@@ -2699,6 +2711,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabDots
+id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2713,7 +2726,6 @@ id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
-id testdevice
 id text
 id text2
 id textEnd
@@ -2730,14 +2742,13 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_first
-id textview_second
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
+id toolbar_title
 id top
 id topPanel
 id touch_outside
@@ -2874,8 +2885,8 @@ layout abc_tooltip
 layout activity_authentication
 layout activity_fb_activity
 layout activity_main2
+layout activity_post_to_all_social_m
 layout activity_splash_screen
-layout activity_twitter
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout com_facebook_activity_layout
@@ -2900,11 +2911,15 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_first
-layout fragment_second
+layout fragment_facebook_posts
+layout fragment_home
+layout fragment_instagram_post
+layout fragment_more
+layout fragment_post
 layout fragment_splash1
 layout fragment_splash2
 layout fragment_splash3
+layout fragment_twitter_post
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3007,9 +3022,10 @@ layout tw__tweet
 layout tw__tweet_compact
 layout tw__tweet_quote
 layout tw__video_control
+menu bottom_nav_menu
+menu menu_bar
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
 plurals mtrl_badge_content_description
 plurals tw__time_hours
 plurals tw__time_mins
@@ -3109,6 +3125,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
@@ -3435,6 +3452,7 @@ style CardView_Dark
 style CardView_Light
 style ComposerDark
 style ComposerLight
+style CornerImage
 style EmptyTheme
 style MD_ActionButton
 style MD_Dark

@@ -109,7 +109,7 @@ public class Authentication extends AppCompatActivity {
                         String photoUrlBiggerSize = userResult.data.profileImageUrl.replace("_normal", "_bigger");
                         String photoUrlMiniSize = userResult.data.profileImageUrl.replace("_normal", "_mini");
                         String photoUrlOriginalSize = userResult.data.profileImageUrl.replace("_normal", "");
-                        Intent intent = new Intent(Authentication.this, TwitterActivity.class);
+                        Intent intent = new Intent(Authentication.this, PostToAllSocialMedia.class);
                         intent.putExtra("username", name);
                         intent.putExtra("email", email);
                         intent.putExtra("picture", photoUrlNormalSize);

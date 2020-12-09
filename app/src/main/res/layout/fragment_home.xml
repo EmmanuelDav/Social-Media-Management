@@ -14,7 +14,7 @@
         android:background="@color/white"
         android:layout_alignParentEnd="true"
         android:id="@+id/toolbar"
-        app:title="Social Media Management"
+        app:title="Manage Me"
         app:titleTextColor="@color/color_secondary" />
 
 
@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
+        android:paddingBottom="20dp"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -34,17 +35,17 @@
             android:layout_height="70dp"
             app:shapeAppearanceOverlay="@style/CornerImage"/>
 
-        <com.google.android.material.textfield.TextInputEditText
+        <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
+            android:id="@+id/send_to_post_activity"
             android:background="@drawable/edittextbackground"
             android:layout_gravity="center_vertical"
             android:padding="10dp"
-            app:fontFamily="@font/actor"
-            android:text="Post to all your social Media at Once"/>
+            android:hint="Connect to all your social Media at Once"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
